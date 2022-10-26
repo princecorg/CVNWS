@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ceci est une petite démo en HTML puis CSS dans le cadre d'un cours à la NWS."/>
+    <title>CV Normandie Web School</title>
+    <style>
+      table,
+      tr,
+      td {
+        padding: 10px 15px;
+      }
+      table {
+        border: 2px solid black;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Christophe Vallot</h1>
+    <figure>
+      <a href="images/photo.jpg" target="_blank"
+        ><img
+          src="images/photo_mini.jpg"
+          alt="Photo d'identité de Christophe Vallot"
+      /></a>
+    </figure>
+    <q id="citation">Cogito ergo sum</q>
+    <section id="cptes">
+      <h2>Compétences</h2>
+      <table>
+        <tr>
+          <th>Intitulé de compétences</th>
+          <th>Niveau de maîtrise</th>
+        </tr>
+        <tr>
+          <td>Structurer mon CV en HTML</td>
+          <td><progress id="html" max="100" value="75">75%</progress></td>
+        </tr>
+        <tr>
+          <td>Mettre en forme mon CV en CSS</td>
+          <td><progress id="css" max="100" value="50">50%</progress></td>
+        </tr>
+        <tr>
+          <td>Utiliser un éditeur de texte</td>
+          <td><progress id="vsc" max="100" value="88">88%</progress></td>
+        </tr>
+        <tr>
+          <td>Utiliser des balises sémantiques</td>
+          <td><progress id="balises" max="100" value="33">33%</progress></td>
+        </tr>
+        <tr>
+          <td>Intégrer une police depuis Google Fonts</td>
+          <td><progress id="fonts" max="100" value="15">15%</progress></td>
+        </tr>
+      </table>
+    </section>
+    <section id="formation">
+      <h2>Formation</h2>
+      <p>
+        2020-2022 <strong>Développeur Logiciel</strong> Normandie Web School
+        <i>Rouen</i>
+      </p>
+      <p>
+        2015-2018 <strong>Licence Informatique</strong> Université de Rouen
+        <i>Rouen</i>
+      </p>
+      <p>
+        2016-2017 <strong>Baccalauréat</strong> Lycée Pierre Corneille
+        <i>Rouen</i>
+      </p>
+    </section>
+    <section id="xp">
+      <h2>Expériences professionnelles</h2>
+      <p>
+        2018-aujourd'hui
+        <strong>Développeur Frontend Indépendant</strong> Microentreprise
+        <i>À distance</i>
+      </p>
+      <ul>
+        <li>Réaliser des sites statiques</li>
+        <li>Dynamiser des sites avec Javascript</li>
+        <li>Produire un backend en PHP</li>
+        <li>Déployer des solutions WordPress</li>
+        <li>Concevoir des bases de données</li>
+      </ul>
+      <p>
+        2005-2018 <strong>Formateur en informatique</strong> Vacations
+        <i>Normandie</i>
+      </p>
+      <ul>
+        <li>Formations en bureautique (Pack Office)</li>
+        <li>Formations en PAO (Photoshop, Illustrator)</li>
+        <li>Accompagnement individuel ou collectif</li>
+        <li>Conception pédagogique</li>
+        <li>Évaluation et jury d'examen</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Centres d'intérêt</h2>
+      <p>
+        <a href="https://www.lesimprimantes3d.fr/" target="_blank"
+          >Impression 3D</a
+        >
+      </p>
+      <p>Voyages et nature</p>
+      <p>Cinéma et séries</p>
+    </section>
+  </body>
+</html>
