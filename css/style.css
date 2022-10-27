@@ -1,0 +1,12 @@
+table,
+tr,
+td {
+  padding: 10px 15px;
+}
+table {
+  border: 2px solid black;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
